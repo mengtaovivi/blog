@@ -5,3 +5,8 @@ theme: jekyll-theme-cayman
 url: https://mengtaovivi.github.io/blog #改
 root: /blog/ #改
 permalink: :year/:month/:day/:title/
+
+deploy:
+  type: git
+repository: https://github.com/mengtaovivi/blog.git #改
+  branch: master
